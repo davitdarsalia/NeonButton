@@ -1,0 +1,291 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Consolas;
+  background-color: #333;
+}
+
+/* First Button */
+
+.button {
+  position: relative;
+  color: #2196f3;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 0.7vh;
+  padding: 15px 30px;
+  overflow: hidden;
+}
+
+/* Button Lines */
+
+.button__line {
+  position: absolute;
+  display: block;
+}
+
+/* Upper Span */
+
+.button__line-top {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #2196f3);
+}
+
+.button:hover .button__line-top {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+/* Bottom Span */
+
+.button__line-bottom {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #2196f3);
+}
+
+.button:hover .button__line-bottom {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+/* Left Span */
+
+.button__line-left {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #2196f3);
+}
+
+.button:hover .button__line-left {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+/* Right Span */
+
+.button__line-right {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #2196f3);
+}
+
+.button:hover .button__line-right {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  background-color: #2196f3;
+  transition: 1s;
+  transition-delay: 0.3s;
+  color: #fff;
+}
+
+/* Second Button */
+
+.button2 {
+  position: relative;
+  color: #d4f321;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 0.7vh;
+  padding: 15px 30px;
+  overflow: hidden;
+}
+
+/* Button Lines */
+
+.button__line2 {
+  position: absolute;
+  display: block;
+}
+
+/* Upper Span */
+
+.button__line-top2 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #d4f321);
+}
+
+.button2:hover .button__line-top2 {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+/* Bottom Span */
+
+.button__line-bottom2 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #d4f321);
+}
+
+.button2:hover .button__line-bottom2 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+/* Left Span */
+
+.button__line-left2 {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #d4f321);
+}
+
+.button2:hover .button__line-left2 {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+/* Right Span */
+
+.button__line-right2 {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #d4f321);
+}
+
+.button2:hover .button__line-right2 {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+.button2:hover {
+  box-shadow: 0 0 10px #d4f321, 0 0 40px #d4f321, 0 0 80px #d4f321;
+  background-color: #d4f321;
+  transition: 1s;
+  transition-delay: 0.3s;
+  color: #fff;
+}
+
+/* Third Button */
+
+.button3 {
+  position: relative;
+  color: #e60000;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 0.7vh;
+  padding: 15px 30px;
+  overflow: hidden;
+}
+
+/* Button Lines */
+
+.button__line3 {
+  position: absolute;
+  display: block;
+}
+
+/* Upper Span */
+
+.button__line-top3 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #e60000);
+}
+
+.button3:hover .button__line-top3 {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+/* Bottom Span */
+
+.button__line-bottom3 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #e60000);
+}
+
+.button3:hover .button__line-bottom3 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+/* Left Span */
+
+.button__line-left3 {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #e60000);
+}
+
+.button3:hover .button__line-left3 {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+/* Right Span */
+
+.button__line-right3 {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #e60000);
+}
+
+.button3:hover .button__line-right3 {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+.button3:hover {
+  box-shadow: 0 0 10px #e60000, 0 0 40px #e60000, 0 0 80px #e60000;
+  background-color: #e60000;
+  transition: 1s;
+  transition-delay: 0.3s;
+  color: #fff;
+}
